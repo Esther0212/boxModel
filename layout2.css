@@ -1,39 +1,57 @@
-body * {
-    margin: 0px;
-    border: 0%;
-    padding: 0%;
-    text-align: center;
-    font-size: 5rem;
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 97vh;
     font-family: Arial, Helvetica, sans-serif;
-    color: olivedrab;
-}
-
-header {
-    margin: 5px;
-    border: 2px solid black;
-}
-
-nav {
-    margin: 5px;
-    border: 2px solid black;
-}
-
-main {
-    border: none;
-    height: 66vh;
     text-align: center;
+    color: olivedrab;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
 }
 
-aside {
-    margin: 5px;
-    margin-top: 1px;
-    width: 49.23%;
+header{
     border: 2px solid black;
-    float: left;
-    line-height: 65.25vh;
+    padding: 1em 0 1em 0;
 }
 
-footer {
-    margin: 5px;
+nav{
     border: 2px solid black;
+    padding: 1em 0 1em 0;
+}
+
+.main{
+    margin: 0%;
+    display: flex;
+    flex: 1;
+    line-height: 320px;
+}
+
+.A{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+    width: 50%;
+}
+
+.B{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+    width: 50%;
+}
+
+footer{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 2em 0 2em 0;
+    }
 }
