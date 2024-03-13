@@ -1,0 +1,72 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 97vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: olivedrab;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+}
+
+nav{
+    border: 2px solid black;
+    padding: .3em 0 .3em 0;
+}
+
+.main{
+    margin: 0%;
+    display: flex;
+    height: 59vh;
+}
+
+.left{
+    line-height: 300px;
+    margin-right: -1px;
+    border: 2px solid black;
+    padding: 2em 0 2em 0;
+    flex: 1 1 100px;
+}
+
+.minor{
+    margin-left: -.5px;
+    border: 2px solid black;
+    height: 57.7vh;
+    padding: 2em 2em;
+    flex: .5 .5 100px;
+}
+
+.right{
+    display: flex;
+}
+
+.picture{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+    width: 150px;
+}
+
+.about{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+    width: 200px;
+}
+
+.tweets{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+}
+
+footer{
+    border: 2px solid black;
+    padding: 1em 0 1em 0;
+}
