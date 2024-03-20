@@ -28,18 +28,19 @@ nav{
     display: flex;
     flex: 1;
     line-height: 320px;
+    flex-wrap: nowrap;
 }
 
 .A{
     border: 2px solid black;
     padding: 1em 0 1em 0;
-    width: 50%;
+    flex-basis: 50%;
 }
 
 .B{
     border: 2px solid black;
     padding: 1em 0 1em 0;
-    width: 50%;
+    flex-basis: 50%;
 }
 
 footer{
